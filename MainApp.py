@@ -399,7 +399,7 @@ def PitcherBaBIP(arr):
 def PitcherAB(arr):
     for player in arr:
         try:
-            player["AB"] = player["H"]/player["AVG"]
+            player["AB"] = player["H"]/player["BAVG"]
         except:
             player["AB"] = 0
 
