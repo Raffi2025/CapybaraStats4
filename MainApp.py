@@ -411,7 +411,7 @@ StealSuccessRate(batterList)
 Singles(batterList)
 IsolatedPower(batterList)
 BattingAverageBIP(batterList)
-OnBasePlusSluggingPlus(batterList)
+#OnBasePlusSluggingPlus(batterList)
 WeightedOnBaseAverage(batterList, pitcherList)
 global LAwOBA
 LAwOBA = LeagueAveragewOBA(batterList)
@@ -426,9 +426,9 @@ PitcherFOPercentage(pitcherList)
 XBHPercentage(pitcherList)
 WPoverBF(pitcherList)
 SOoverBB(pitcherList)
-ERAplus(pitcherList)
+#ERAplus(pitcherList)
 PitcherAB(pitcherList)
-PitcherBaBIP(pitcherList)
+#PitcherBaBIP(pitcherList)
 
 
 
