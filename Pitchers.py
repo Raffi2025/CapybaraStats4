@@ -8,10 +8,9 @@ def format_pitcher_stat(stat, value):
     if pd.isnull(value):
         return "N/A"
     
-    three_dp = ["BAVG", "BAbip"]
+    three_dp = ["BAVG"]
     two_dp = ["WHIP", "ERA"]
     one_dp = ["IP", "GO%", "FO%", "BB%", "SO%", "XBX%", "WP/BF", "SO/BB"]
-    whole = ["ERA+"]
 
     if stat in three_dp:
         return f"{value:.3f}"
@@ -19,8 +18,6 @@ def format_pitcher_stat(stat, value):
         return f"{value:.2f}"
     elif stat in one_dp:
         return f"{value:.1f}"
-    elif stat in whole:
-        return f"{round(value)}"
     else:
         return value
 
