@@ -52,7 +52,7 @@ data = pd.read_csv("pitchers.csv")
 
 # ---------- Define stats to visualize ----------
 stats_to_visualize = [
-    "ERA", "WHIP", "SO%", "BB%", "GO%", "FO%", "BAbip", "XBX%", "SO/BB", "WP/BF"
+    "ERA", "WHIP", "SO%", "BB%", "GO%", "FO%", "BAbip", "XBX%", "SO/BB", "WP/BF", "BAVG"
 ]
 available_stats = [stat for stat in stats_to_visualize if stat in data.columns]
 
