@@ -427,8 +427,8 @@ XBHPercentage(pitcherList)
 WPoverBF(pitcherList)
 SOoverBB(pitcherList)
 ERAplus(pitcherList)
-PitcherBaBIP(pitcherList)
 PitcherAB(pitcherList)
+PitcherBaBIP(pitcherList)
 
 
 
