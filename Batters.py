@@ -46,7 +46,7 @@ def compute_percentiles(df, stats):
 data = pd.read_csv("batters.csv")
 
 # ---------- Define stats to visualize ----------
-stats_to_visualize = ["AVG", "OBP", "SLG", "OPS", "HR", "BB%", "SO%", "ISO", "wOBA", "wRAA","wRC", "wRC+", "baBIP"]
+stats_to_visualize = ["AVG", "OBP", "SLG", "OPS", "HR", "BB%", "SO%", "ISO", "wOBA", "wRAA","wRC", "wRC+", "BAbip"]
 available_stats = [stat for stat in stats_to_visualize if stat in data.columns]
 
 # ---------- Compute percentiles ----------
