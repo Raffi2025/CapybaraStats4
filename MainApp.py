@@ -392,7 +392,7 @@ def ERAplus(arr):
 def PitcherBaBIP(arr):
     for player in arr:
         try:
-            player["BAbip"] = (player["H"]-player["HR"])/(player["AB"]-player["SO"]-player["HR"]+player["SF"])
+            player["BAbip"] = (player["H"]-player["HR"])/(player["AB"]-player["SO"]-player["HR"]+player["SFA"])
         except:
             player["BAbip"] = 0
 
