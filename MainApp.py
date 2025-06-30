@@ -197,7 +197,7 @@ def OnBasePlusSluggingPlus(arr):
     totalOBP, totalSLG, validPeople = leagueAverages(batterList)
     for player in arr:
         OPSPlus = ((player["OBP"]/totalOBP) + (player["SLG"]/totalSLG) - 1)*100
-        player["OPS+"] = round(OPSPlus)
+        player["OPS+"] = int(OPSPlus)
 
 def WeightedOnBaseAverage(batting, pitching):
     #Step 1
